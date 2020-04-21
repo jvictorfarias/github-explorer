@@ -14,6 +14,7 @@ export default createGlobalStyle`
   body {
     background: #f0f0f5 url(${githubBackground} ) no-repeat 70% top;
     -webkit-font-smoothing: antialiased !important;
+
   }
 
   body, input, button {
@@ -25,7 +26,7 @@ export default createGlobalStyle`
   }
 
   #root{
-    max-width: 960px;
+    max-width: 860px;
     margin: 0 auto;
     padding: 40px 20px;
   }
