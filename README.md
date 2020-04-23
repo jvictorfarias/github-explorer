@@ -1,15 +1,15 @@
 <img alt="GoStack" src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/header-desafios.png" />
 
-[![The MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](http://github.com/jvictorfarias/gostack-database-upload/LICENSE.md)
-![GitHub last commit](https://img.shields.io/github/last-commit/jvictorfarias/gostack-database-upload?color=green)
-![GitHub top language](https://img.shields.io/github/languages/top/jvictorfarias/gostack-database-upload)
+[![The MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](http://github.com/jvictorfarias/github-explorer/LICENSE.md)
+![GitHub last commit](https://img.shields.io/github/last-commit/jvictorfarias/github-explorer?color=green)
+![GitHub top language](https://img.shields.io/github/languages/top/jvictorfarias/github-explorer)
 
 </div>
 </p>
 
 ## :fire: Preview
 
-<iframe align="center" src="https://giphy.com/embed/U44FvEoQghIHTwKORm" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/U44FvEoQghIHTwKORm">via GIPHY</a></p>
+<img  src="https://giphy.com/embed/U44FvEoQghIHTwKORm" width="auto" ></img>
 
 ## :rocket: Github Explorer
 
