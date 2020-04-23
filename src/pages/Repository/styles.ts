@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import { shade } from 'polished';
 
+interface TagProps {
+  tagColor: string;
+}
+
 export const Header = styled.header`
   display: flex;
   align-items: center;
@@ -82,15 +86,14 @@ export const RepositoryInfo = styled.div`
 export const Issues = styled.div`
   margin-top: 80px;
   max-width: auto;
+  justify-content: space-between;
 
   a {
     background: #fff;
     border-radius: 5px;
     width: 100%;
     padding: 24px;
-    display: block;
     text-decoration: none;
-
     display: flex;
     align-items: center;
     transition: background-color 0.2s;
@@ -124,5 +127,28 @@ export const Issues = styled.div`
       margin-left: auto;
       color: #cbcbd6;
     }
+  }
+`;
+
+export const TagList = styled.ul`
+  color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  list-style: none;
+`;
+
+export const Tag = styled.li<TagProps>`
+  border-radius: 3px;
+  text-align: center;
+  font-weight: bold;
+  padding: 4px;
+  font-size: 14px;
+  background: ${(props) => `#${props.tagColor}`};
+
+  & + li {
+    margin-top: 4px;
   }
 `;

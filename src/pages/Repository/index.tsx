@@ -3,7 +3,7 @@ import { useRouteMatch, Link } from 'react-router-dom';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import logoImg from '../../assets/github-icon.svg';
 
-import { Header, RepositoryInfo, Issues } from './styles';
+import { Header, RepositoryInfo, Issues, TagList, Tag } from './styles';
 
 import api from '../../services/api';
 
@@ -21,6 +21,11 @@ interface Repository {
     avatar_url: string;
   };
 }
+interface Label {
+  id: number;
+  name: string;
+  color: string;
+}
 
 interface Issue {
   id: number;
@@ -29,6 +34,7 @@ interface Issue {
   user: {
     login: string;
   };
+  labels: Label[];
 }
 
 const Repository: React.FC = () => {
@@ -89,6 +95,14 @@ const Repository: React.FC = () => {
               <strong>{issue.title}</strong>
               <p>{issue.user.login}</p>
             </div>
+            <TagList>
+              {issue.labels.map((label) => (
+                <Tag key={label.id} tagColor={label.color}>
+                  {label.name.toUpperCase()}
+                </Tag>
+              ))}
+            </TagList>
+
             <FiChevronRight size={20} />
           </a>
         ))}
