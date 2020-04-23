@@ -1,15 +1,18 @@
 <img alt="GoStack" src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/header-desafios.png" />
 
+<div align="center">
+
 [![The MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](http://github.com/jvictorfarias/github-explorer/LICENSE.md)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jvictorfarias/github-explorer?color=green)
 ![GitHub top language](https://img.shields.io/github/languages/top/jvictorfarias/github-explorer)
 
 </div>
-</p>
 
 ## :fire: Preview
 
-<img  src="https://giphy.com/embed/U44FvEoQghIHTwKORm" width="auto" ></img>
+<p align="center">
+<img src="https://media.giphy.com/media/U44FvEoQghIHTwKORm/giphy.gif" ></img>
+</p>
 
 ## :rocket: Github Explorer
 
