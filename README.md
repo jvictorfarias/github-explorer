@@ -7,6 +7,10 @@
 </div>
 </p>
 
+## :fire: Preview
+
+<iframe align="center" src="https://giphy.com/embed/U44FvEoQghIHTwKORm" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/U44FvEoQghIHTwKORm">via GIPHY</a></p>
+
 ## :rocket: Github Explorer
 
 Aplicação que permite a adição de repositórios em uma lista utilizando do async storage, e ao clicar no item dessa lista, podemos ver detalhes sobre o repositório adicionado além das suas issues e labels.
